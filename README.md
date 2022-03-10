@@ -34,7 +34,7 @@
 
 		fig.show()
 
-### Notice the area is Kingstown, Possible Location of alias 'King'
+### Notice the area is Kingstown, Possible Location of alias "King"
 
 ![overlay](images/overlay.png)
 
@@ -43,7 +43,7 @@
  Also Note, Header Information is not present in the Original CSV data, only the coordinates, and if you were to try to get more information, you would need to copy and paste the coordinates every time and this can be disturbing, especially if you are in a cloud vm. 
 
 
-## Extracting more times from CSV location & Convertine Mac Time 
+## Extracting more times from CSV location & Converting to Mac Time 
 	for line in $(cat CellLocation.csv) | awk -F "|" '{print $5}' | uniq | tail -5 ); echo "$line == $(date -d @$line)"
 	
 ![times](images/times.png)
