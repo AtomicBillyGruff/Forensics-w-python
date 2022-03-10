@@ -55,7 +55,7 @@ let that render.
 
 
 ### What This Script is Doing: 
-1. Inputs locations into Google Maps and attempts to extract an address from the coordinates
+1. Inputs locations into Google Maps and attempts to extract an address from the coordinates.
 2. If the location does not coorelate to an exact location, The program will back grab a general area name for quicker and more relatable searches. 
 
 These effects display on-hover: 
